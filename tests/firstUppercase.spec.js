@@ -7,7 +7,7 @@ describe('UserService', function () {
 		firstUppercase = $filter('firstUppercase');
 	}));
 
-	it('should capitalise the first letter', function () {
+	it('should capitalize the first letter', function () {
 		expect(firstUppercase('test')).toEqual('Test');
 	});
 });
